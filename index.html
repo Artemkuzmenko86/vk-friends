@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>VK Friends</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+</head>
+<body>
+
+	<div class="container">
+
+          <img src="img/logo.png" alt="logo" class="title">
+          <div class="content">
+               <header class="content__header">
+                    Выберите друзей
+                    <!--<div class="content__header-close-btn">-->
+                         <!--<i class="fa fa-times" aria-hidden="true"></i>-->
+                    <!--</div>-->
+               </header>
+               <section class="clearfix">
+                    <div class="content__left">
+                         <div class="content__left-filter">
+                                <input id="searchInput" placeholder="Начните вводить имя друга">                                
+                         </div>
+                         <div class="content__left-title">
+                              Ваши друзья
+                         </div>
+                         <div id="draggable-list" class="content__left-list">
+                            
+                         </div>
+                    </div>
+                    <div class="content__right">
+                         <div class="content__right-filter">
+                              <input id="nameInput" placeholder="Начните вводить имя друга">                              
+                         </div>
+                         <div class="content__right-title">
+                              Друзья в списке
+                         </div>
+                         <div class="content__right-list">
+                             
+                         </div>
+                    </div>
+               </section>
+               <footer class="content__footer">
+                    <button class="content__footer-save-button">Сохранить</button>
+               </footer>
+          </div>
+	</div>
+
+<script type="text/javascript" src="//vk.com/js/api/openapi.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
